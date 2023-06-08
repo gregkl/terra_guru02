@@ -6,6 +6,11 @@ terraform {
       version = "~>3.43.0"
     }
   }
+  cloud {
+    workspaces {
+      name = "TerraCI"
+    }
+  }
 
 }
 
