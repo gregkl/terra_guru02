@@ -15,6 +15,7 @@ variable "TF_VAR_agent_client_id" {
 
 variable "TF_VAR_agent_client_secret" {
     type = string
-    sensitive = true
+    default = "who8Q~mkO7ygmRnBXEWiSKeCJEepQAXHtrRYsbJI"
+    
 }
 
