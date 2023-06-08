@@ -7,6 +7,7 @@ terraform {
     }
   }
   cloud {
+    organization = "gk_guru"
     workspaces {
       name = "TerraCI"
     }
