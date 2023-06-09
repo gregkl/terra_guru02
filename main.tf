@@ -1,4 +1,11 @@
 terraform {
+  cloud {
+    organization = "gk_guru"
+
+    workspaces {
+      name = "TerraCI2"
+    }
+  }
   required_version = ">=1.3.7"
   required_providers {
     azurerm = {
@@ -6,6 +13,7 @@ terraform {
       version = "~>3.43.0"
     }
   }
+  
 
 }
 
