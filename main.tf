@@ -26,4 +26,3 @@ resource "azurerm_storage_account" "storage" {
   name                     = "storageguru01"
   resource_group_name      = azurerm_resource_group.rg.name
 }
-#just a check##
