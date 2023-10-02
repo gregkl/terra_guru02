@@ -13,9 +13,8 @@ variable "TF_VAR_agent_client_id" {
   default = "13e8d82d-3ac9-4d48-a6f8-eed8a2a2f30e"
 }
 
-variable "TF_VAR_agent_client_secret" {
-  type    = string
-  default = "who8Q~mkO7ygmRnBXEWiSKeCJEepQAXHtrRYsbJI"
-
-}
+variable "testno" {
+  type = integer
+  default = 01  
+  }
 
