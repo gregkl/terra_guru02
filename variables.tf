@@ -13,9 +13,19 @@ variable "TF_VAR_agent_client_id" {
   default = "13e8d82d-3ac9-4d48-a6f8-eed8a2a2f30e"
 }
 
+
+variable "testno" {
+  type = integer
+  default = 01  
+  }
+
+
+
 variable "date" {
   type = string
   default = "02.10.23"
   
 }
+
 ## this is just to check if it atill runs
+
