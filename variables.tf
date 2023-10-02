@@ -15,8 +15,8 @@ variable "TF_VAR_agent_client_id" {
 
 
 variable "testno" {
-  type = integer
-  default = 01  
+  type = string
+  default = "01"  
   }
 
 
