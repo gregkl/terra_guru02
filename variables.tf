@@ -18,3 +18,9 @@ variable "testno" {
   default = 01  
   }
 
+variable "date" {
+  type = string
+  default = "02.10.23"
+  
+}
+## this is just to check if it atill runs
